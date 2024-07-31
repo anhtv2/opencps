@@ -1,0 +1,205 @@
+22:15:16,057 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+22:15:16,081 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+22:15:29,472 INFO  [localhost-startStop-1][StartupAction:97] There are no patches installed
+22:15:29,906 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+22:15:30,209 INFO  [localhost-startStop-1][ServerDetector:140] Server supports hot deploy
+22:15:30,212 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+22:15:33,002 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for /server/deploy
+22:15:34,488 INFO  [liferay/scheduler_dispatch-2][PluginPackageUtil:1280] Reloading repositories
+22:15:36,210 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opencps-theme requires marketplace-portlet
+22:15:36,233 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing opencps-theme for deploy because it is missing marketplace-portlet
+22:15:37,308 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+22:15:37,309 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing calendar-portlet for deploy because it is missing marketplace-portlet
+22:15:37,721 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+22:15:37,722 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing web-form-portlet for deploy because it is missing marketplace-portlet
+22:15:38,105 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opencps-hook requires marketplace-portlet
+22:15:38,105 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing opencps-hook for deploy because it is missing marketplace-portlet
+22:15:38,474 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+22:15:38,475 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing resources-importer-web for deploy because it is missing marketplace-portlet
+22:15:38,919 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+22:15:38,919 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing sync-web for deploy because it is missing marketplace-portlet
+22:15:40,160 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opencps-portlet requires marketplace-portlet
+22:15:40,161 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing opencps-portlet for deploy because it is missing marketplace-portlet
+22:15:40,684 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opencps-home-layouttpl requires marketplace-portlet
+22:15:40,685 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing opencps-home-layouttpl for deploy because it is missing marketplace-portlet
+22:15:41,117 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying marketplace-portlet from queue
+22:15:41,118 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+22:15:41,714 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for marketplace-portlet
+22:15:41,779 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for marketplace-portlet is available for use
+22:15:41,789 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for marketplace-portlet
+22:15:41,875 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 3 portlets for marketplace-portlet are available for use
+22:15:41,877 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opencps-theme from queue
+22:15:41,877 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opencps-theme
+22:15:41,962 INFO  [localhost-startStop-1][ThemeHotDeployListener:98] Registering themes for opencps-theme
+22:15:42,079 INFO  [localhost-startStop-1][ThemeHotDeployListener:113] 1 theme for opencps-theme is available for use
+22:15:42,080 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying calendar-portlet from queue
+22:15:42,080 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+22:15:42,751 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for calendar-portlet
+22:15:43,206 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for calendar-portlet is available for use
+22:15:43,218 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for calendar-portlet
+22:15:43,318 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for calendar-portlet is available for use
+22:15:43,319 INFO  [localhost-startStop-1][SocialHotDeployListener:94] Registering social for calendar-portlet
+22:15:43,320 INFO  [localhost-startStop-1][SocialHotDeployListener:103] Social for calendar-portlet is available for use
+22:15:43,320 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying web-form-portlet from queue
+22:15:43,320 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+22:15:43,445 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for web-form-portlet
+22:15:43,484 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for web-form-portlet is available for use
+22:15:43,485 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opencps-hook from queue
+22:15:43,485 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opencps-hook
+22:15:43,567 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for opencps-hook
+22:15:43,574 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for opencps-hook is available for use
+22:15:43,575 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying resources-importer-web from queue
+22:15:43,575 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+22:15:43,674 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for resources-importer-web
+22:15:43,675 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for resources-importer-web is available for use
+22:15:43,676 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying sync-web from queue
+22:15:43,676 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+22:15:44,024 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for sync-web
+22:15:44,116 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for sync-web is available for use
+22:15:44,123 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opencps-portlet from queue
+22:15:44,123 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opencps-portlet
+22:15:46,745 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for opencps-portlet
+22:15:46,758 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for opencps-portlet is available for use
+22:15:46,769 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for opencps-portlet
+22:15:47,016 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 18 portlets for opencps-portlet are available for use
+22:15:47,016 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opencps-home-layouttpl from queue
+22:15:47,016 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opencps-home-layouttpl
+22:15:47,117 INFO  [localhost-startStop-1][LayoutTemplateHotDeployListener:94] Registering layout templates for opencps-home-layouttpl
+22:15:47,121 ERROR [localhost-startStop-1][LayoutTemplateLocalServiceImpl:433] No content found at WAP template path /opencps_home.wap.tpl
+22:15:47,122 INFO  [localhost-startStop-1][LayoutTemplateHotDeployListener:109] 1 layout template for opencps-home-layouttpl is available for use
+22:21:44,340 INFO  [http-bio-8080-exec-3][CaptchaImpl:139] Initializing com.liferay.portal.captcha.simplecaptcha.SimpleCaptchaImpl
+22:22:38,797 ERROR [liferay/mail-1][MailEngine:132] null
+javax.net.ssl.SSLException: Received fatal alert: protocol_version
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:97)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:75)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1440)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1260)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:370)
+	at javax.mail.Service.connect(Service.java:275)
+	at com.liferay.util.mail.MailEngine._send(MailEngine.java:552)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:352)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:427)
+	at com.liferay.mail.messaging.MailMessageListener.doMailMessage(MailMessageListener.java:93)
+	at com.liferay.mail.messaging.MailMessageListener.doReceive(MailMessageListener.java:108)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:26)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:72)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:71)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+22:26:43,550 ERROR [http-bio-8080-exec-2][SimpleCaptchaImpl:449] CAPTCHA text is null. User null may be trying to circumvent the CAPTCHA.
+22:34:01,383 WARN  [http-bio-8080-exec-10][DossierFilePersistenceImpl:129] No DossierFile exists with the key {dossierId=201, dossierPartId=3}
+22:34:01,385 WARN  [http-bio-8080-exec-10][DossierFilePersistenceImpl:129] No DossierFile exists with the key {dossierId=201, dossierPartId=4}
+22:34:01,387 WARN  [http-bio-8080-exec-10][DossierFilePersistenceImpl:129] No DossierFile exists with the key {dossierId=201, dossierPartId=5}
+22:34:01,389 WARN  [http-bio-8080-exec-10][DossierFilePersistenceImpl:129] No DossierFile exists with the key {dossierId=201, dossierPartId=6}
+22:35:24,416 ERROR [liferay/mail-1][MailEngine:132] null
+javax.net.ssl.SSLException: Received fatal alert: protocol_version
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:97)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:75)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1440)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1260)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:370)
+	at javax.mail.Service.connect(Service.java:275)
+	at com.liferay.util.mail.MailEngine._send(MailEngine.java:552)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:352)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:427)
+	at com.liferay.mail.messaging.MailMessageListener.doMailMessage(MailMessageListener.java:93)
+	at com.liferay.mail.messaging.MailMessageListener.doReceive(MailMessageListener.java:108)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:26)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:72)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:71)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+22:36:22,504 ERROR [liferay/mail-1][MailEngine:132] null
+javax.net.ssl.SSLException: Received fatal alert: protocol_version
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:97)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:75)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1440)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1260)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:370)
+	at javax.mail.Service.connect(Service.java:275)
+	at com.liferay.util.mail.MailEngine._send(MailEngine.java:552)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:352)
+	at com.liferay.util.mail.MailEngine.send(MailEngine.java:427)
+	at com.liferay.mail.messaging.MailMessageListener.doMailMessage(MailMessageListener.java:93)
+	at com.liferay.mail.messaging.MailMessageListener.doReceive(MailMessageListener.java:108)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:26)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:72)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:71)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:682)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:593)
+22:39:39,763 WARN  [http-bio-8080-exec-1][code_jsp:130] {code="404", msg="/html/extensions/jquery.min.map", uri=/html/extensions/jquery.min.map}
+23:19:00,459 WARN  [http-bio-8080-exec-9][code_jsp:130] {code="500", msg="", uri=/html/portlet/search/facets/users.jsp}
+org.apache.jasper.JasperException: An exception occurred processing JSP page /html/portlet/init.jsp at line 22__19: <portlet:defineObjects />_20: _21: <%_22: PortletMode portletMode = liferayPortletRequest.getPortletMode();_23: WindowState windowState = liferayPortletRequest.getWindowState();_24: _25: PortletURL currentURLObj = PortletURLUtil.getCurrent(liferayPortletRequest, liferayPortletResponse);___Stacktrace: [Sanitized]
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.uploadservletrequest.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:93)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.sso.ntlm.NtlmPostFilter.processFilter(NtlmPostFilter.java:83)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.html.portlet.search.facets.users_jsp._jspService(users_jsp.java:644)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 65 more

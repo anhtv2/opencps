@@ -1,0 +1,124 @@
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.6.32-linuxkit
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/java/jre1.7.0_80
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_80-b15
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /server/tomcat-7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /server/tomcat-7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/server/tomcat-7.0.62/conf/logging.properties
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF8
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Duser.timezone=GMT+7
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx2024m
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/server/tomcat-7.0.62/endorsed
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/server/tomcat-7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/server/tomcat-7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/server/tomcat-7.0.62/temp
+Jul 30, 2024 10:15:05 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 30, 2024 10:15:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 30, 2024 10:15:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8019"]
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 498 ms
+Jul 30, 2024 10:15:05 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 30, 2024 10:15:05 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 30, 2024 10:15:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /server/tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 30, 2024 10:15:12 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:35 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /server/tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 30,048 ms
+Jul 30, 2024 10:15:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/opencps-theme
+Jul 30, 2024 10:15:36 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/opencps-theme has finished in 420 ms
+Jul 30, 2024 10:15:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/calendar-portlet
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/calendar-portlet has finished in 1,075 ms
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/web-form-portlet
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/web-form-portlet has finished in 411 ms
+Jul 30, 2024 10:15:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/opencps-hook
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/opencps-hook has finished in 383 ms
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/resources-importer-web
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/resources-importer-web has finished in 367 ms
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/sync-web
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/sync-web has finished in 499 ms
+Jul 30, 2024 10:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/opencps-portlet
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/opencps-portlet has finished in 1,365 ms
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/opencps-home-layouttpl
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/opencps-home-layouttpl has finished in 346 ms
+Jul 30, 2024 10:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /server/tomcat-7.0.62/webapps/marketplace-portlet
+Jul 30, 2024 10:15:41 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 30, 2024 10:15:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /server/tomcat-7.0.62/webapps/marketplace-portlet has finished in 6,739 ms
+Jul 30, 2024 10:15:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 30, 2024 10:15:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8019"]
+Jul 30, 2024 10:15:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 41702 ms
